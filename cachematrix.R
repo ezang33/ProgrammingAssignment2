@@ -8,7 +8,7 @@
 ## and inverse m.
 
 makeCacheMatrix <- function(x = matrix()) {
-  M <- NULL
+  m <- NULL
   set <- function(y) {
     x <<- y
     m <<- NULL
